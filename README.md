@@ -1,1 +1,0 @@
-# fylo_data_storage_component_frontendmentor
