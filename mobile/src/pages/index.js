@@ -1,6 +1,6 @@
 import React from 'react';
-import { View, Text, Label, Image, ImageBackground } from 'react-native';
-import InputRange from 'react-input-range';
+import { View, Text, Slider, Image, ImageBackground } from 'react-native';
+
 
 import bgImage from './../assets/bg-mobile.png';
 import logo from './../assets/logo.png';
@@ -32,9 +32,30 @@ export default function Home() {
           </View>
 
           <View style={styles.contentDataStorage}>
-            <Text>You've used</Text>
-            <Text>815 gb</Text>
-            <Text>of your storage</Text>
+            <View style={styles.contentDescription}>
+              <Text style={styles.description}>You've used</Text>
+              <Text style={styles.descriptionWeight}> 815 GB </Text>
+              <Text style={styles.description}>of your storage</Text>
+            </View>
+
+            <View style={styles.contentSlider}>
+              <Slider
+                value={815}
+                minimumValue={0}
+                maximumValue={1000}
+                maximumTrackTintColor='hsl(6, 100%, 80%)'
+                minimumTrackTintColor='hsl(335, 100%, 65%)'
+              />
+              <View style={styles.contentDescriptionData}>
+                <Text style={styles.descriptionData}>0 GB</Text>
+                <Text style={styles.descriptionData}>1000 GB</Text>
+              </View>
+            </View>
+
+            <View style={styles.contentDescriptionDataUsed}>
+              <Text style={styles.descriptionDataUsed}>185</Text>
+              <Text style={styles.descriptionDataUsedComplement}>GB LEFT</Text>
+            </View>
           </View>
 
         </View>

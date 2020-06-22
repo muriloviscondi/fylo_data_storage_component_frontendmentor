@@ -1,5 +1,6 @@
 import { StyleSheet } from 'react-native';
 import Constants from 'expo-constants'
+import { Colors } from 'react-native/Libraries/NewAppScreen';
 
 
 export default StyleSheet.create({
@@ -45,10 +46,63 @@ export default StyleSheet.create({
 
   contentDataStorage: {
     width: 300,
+    height: 135,
     marginTop: 20,
     borderRadius: 12,
     backgroundColor: 'hsl(228, 56%, 26%)',
     padding: 30,
+  },
+
+  contentDescription: {
+    flexDirection: 'row',
+  },
+
+  description: {
+    color: '#fff',
+    fontFamily: 'Raleway_400Regular',
+  },
+
+  descriptionWeight: {
+    color: '#fff',
+    fontFamily: 'Raleway_700Bold',
+  },
+
+  contentSlider: {
+    marginTop: 10,
+    marginBottom: 20,
+  },
+
+  contentDescriptionData: {
+    flexDirection: 'row',
+    justifyContent: 'space-between'
+  },
+
+  descriptionData: {
+    color: '#fff',
+    fontFamily: 'Raleway_700Bold',
+  },
+
+  contentDescriptionDataUsed: {
+    width: 150,
+    height: 75,
+    backgroundColor: '#eee',
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-evenly',
+    borderRadius: 10,
+    position: 'relative',
+    top: '-5%',
+    left: '50%',
+  },
+
+  descriptionDataUsed: {
+    fontSize: 36,
+    fontFamily: 'Raleway_700Bold',
+  },
+
+  descriptionDataUsedComplement: {
+    color: '#777',
+    fontFamily: 'Raleway_400Regular',
   }
 
 });
