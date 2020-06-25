@@ -1,6 +1,6 @@
 <h1>Fylo Data Storage</h1>
 <p>Landing Page desenvolvida através do site <a href="https://www.frontendmentor.io/">Frontend Mentor</a> onde eles disponiblizam vários desafios em sua plataforma.</p>
-<img src="hhttps://res.cloudinary.com/dz209s6jk/image/upload/v1591033776/Challenges/beiy7t7hcpdkhgc6ueho.jpg" alt="logo do projeto" />
+<img src="https://res.cloudinary.com/dz209s6jk/image/upload/v1591033776/Challenges/beiy7t7hcpdkhgc6ueho.jpg" alt="logo do projeto" />
 
 <h2>Proposta do desafio</h2>
 <p>A plataforma <a href="https://www.frontendmentor.io/">Frontend Mentor</a> já disponibiliza o design para elaboração do projeto, o <code>style-guide.md</code>.</p>
